@@ -97,7 +97,7 @@ var odometry_motion_model_t = function(a1, a2, a3, a4) {
 	_this.a2 = a2;
 	_this.a3 = a3;
 	_this.a4 = a4;
-	
+	_this.a5 = a5
 	_this.sample = function(control, location) {
 		if(control.still()) return location;
 		
